@@ -1,4 +1,4 @@
-# graphql-spring-boot-dataloader-example
+## graphql-spring-boot-dataloader-example
 Sample application for GraphQL, Spring boot and DataLoader.
 
 This application is aimed to provide integration for GraphQL, Spring boot and Dataloader.
@@ -15,22 +15,21 @@ library which provides Resolver implementation as they are not
 very configurable and comes with predefined notion. So, I created my own 
 implementation of Resolver and Dataloader.
 
-#Run the app
+## Run the app
 1) Run the application from Application.java. It will initialize the in-memory H2 DB
 with all the values. Open Playground on http://localhost:8080/playground and send below query
 
+``` 
 query {
-
-  getPersons{
-  
-    id
-    firstName
-    lastName
-    email
-    phoneNo
-    
-  }
-}
+      getPersons{
+        id
+        firstName
+        lastName
+        email
+        phoneNo
+      }
+    }
+ ```
  
 
  
