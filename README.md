@@ -3,9 +3,9 @@ Sample application for GraphQL, Spring boot and DataLoader.
 
 This application is aimed to provide integration for GraphQL, Spring boot and Dataloader.
 
-graphql-spring-boot-starter -> Including this deps brings graphql-java-servlet which has 
-old method implementation for GraphQL invocation and it Playground doesn't work because 
-of that. This deps also does many things behind the scenes (This is what SB does :P) so 
+graphql-spring-boot-starter -> Including this dependency brings graphql-java-servlet which has 
+old method implementation for GraphQL invocation and Playground doesn't work because 
+of that. This dependency also does many things behind the scenes (This is what SB does :P) so 
 you don't get an understanding of how bits and pieces fit together in GraphQL which
 is very important to understand if you are using it in a big project because with GraphQL
 things get messy because of multithreading, caching and dataloaders.
